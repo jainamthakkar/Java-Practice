@@ -2,13 +2,13 @@ package FromInheritance;
 
 
 //SimpleCircle is an inner class of class TestSimpleCircle. This means that you first need an instance of object of enclosing class, for example:
-//
+
 //TestSimpleCircle tsc = new TestSimpleCircle();
 //Now you are able to create an instance of inner class that is connected with an instance of enclosing TestSimpleCircle class:
-//
+
 //SimpleCircle circle = tsc.new SimpleCircle();
 //As you see, to create an instance of object of inner class you had to specify to which exactly object of enclosing class you want it to belong (with the tsc.new in your example).
-//
+
 //If you need to create an instance of SimpleCircle without instance of object of enclosing class you should have declared this class as static class SimpleCircle{code of your class here}
 
 
