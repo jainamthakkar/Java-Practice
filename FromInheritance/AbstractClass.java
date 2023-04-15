@@ -52,7 +52,7 @@ public class AbstractClass {
 //		Figure figure = new Figure(5, 4); //we can't make objects of an abstract classes
 		TriangleDemo triangle = new TriangleDemo(5, 6);
 		RectangleDemo rectangle = new RectangleDemo(2, 3);
-		FigureDemo figureDemo;
+		FigureDemo figureDemo; //this is  ok, no object is created
 		
 		figureDemo = triangle;		
 //		System.out.println("Area of triangle : " + triangle.area());  // is equivalent to 

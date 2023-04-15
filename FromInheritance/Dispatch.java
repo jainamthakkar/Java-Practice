@@ -27,9 +27,9 @@ public class Dispatch {
 		B3 b3 = new B3();
 		C3 c3 = new C3();
 		
-		A3 r; //how object of A3 can access B3 and C3 's methods
+		A3 r; 
 
-		r = a3;
+		r = a3; //now reference variable will able to access methods of class A3 bcz a3 is object of an A3
 		r.callme();
 		
 		r = b3;
