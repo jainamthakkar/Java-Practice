@@ -1,8 +1,8 @@
 package fromInterfaces;
 
 //The variables defined in an interface can not be modified by the class that implements the interface, 
-//but it may use as it defined in the interface. The variable in an interface is public, static
-//and final by default.
+//but it may use as it defined in the interface. 
+//######	The variable in an interface is public, static and final by default.	 #######
 
 
 interface demo {
