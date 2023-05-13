@@ -5,13 +5,13 @@ class NewThread implements Runnable {
 	Thread th;
 
 	public NewThread() {
-		th = new Thread(this, "Demo Thread");
+		th = new Thread(this, "Demo Thread");	//	Passing this as the first argument indicates that you want the new thread to call
+//													the run( ) method on this object.
 		System.out.println("Children Thread : " + th);
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 
 		try {
 			for (int i = 5; i > 0; i--) {
@@ -29,10 +29,10 @@ class NewThread implements Runnable {
 public class NewThreadDemo {
 
 	public static void main(String[] args) {
-		
+
 		NewThread nth = new NewThread();
 		nth.th.start();
-		
+
 		try {
 			for (int i = 5; i > 0; i--) {
 				System.out.println("Main Thread : " + i);
