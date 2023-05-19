@@ -39,7 +39,6 @@ class NewThreadDemo2 implements Runnable{
 	
 }
 
-
 public class SuspendResume {
 
 	public static void main(String[] args) {
