@@ -1,7 +1,5 @@
 package FromInheritance;
 
-// ?	?	? page no :- 320 (JAVA the complete Reference)
-
 class A3 {
 	void callme() {
 		System.out.println("It's A3");
