@@ -24,7 +24,7 @@ public class StaticClass {
 		int ans = A.sum(3, 3); //without using obj we can call static methods and variables from static class just we have to use classname.method(); 
 		System.out.println("Ans : " + ans);
 		
-		B b = new B();
+//		B b = new B();
 	}
 
 }
